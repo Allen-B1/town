@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Town</title>
+		<style>
+		div {
+			background: transparent;
+		}
+		.building {
+			display: inline-block;
+			padding: 8px;
+			color: rgba(0, 0, 0, 0.5);
+			margin-right: 8px;
+			cursor: pointer;
+			margin-bottom: 8px;
+			text-align: center;
+			user-select: none;
+		}
+		.Hut {
+			background: #b7e589;
+			min-width: 20px;
+		}
+		.Town-Center {
+			background: #89e5e5;
+			min-width: 50px;
+		}
+		.board {
+			padding: 16px;
+			padding-bottom: 8px;
+			border: 2px solid #99854c;
+			background: #fff;
+			min-height: 200px;
+		}
+		body {
+			font-family: sans-serif;
+			background: #d8c897;
+			padding: 16px;
+			font-size: 14px;
+		}
+		button {
+			font-size: 14px;
+			background: #99854c;
+			padding: 8px 16px;
+			outline: 0;
+			color: #d8c897;
+			border: 0;
+			cursor: pointer;
+			margin-right: 8px;
+		}
+		.count {
+			display: inline-block;
+			padding: 8px 16px;
+			color: rgba(0, 0, 0, 0.8);
+		}
+		</style>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div style="margin-bottom:8px">
+			<div style="float:right">
+				<span class="count">Wood: <span class="wood">0</span></span>
+				<span class="count">Population: <span class="population">0</span></span>
+			</div>
+		
+			<div class="buttons">
+		
+			</div>
+		</div>
+		<div class="board">
+		</div>
+	</body>
+</html>
