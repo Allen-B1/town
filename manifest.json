@@ -1,0 +1,8 @@
+{
+	"name": "Town",
+	"description": "A super simple game",
+	"display": "standalone",
+	"theme_color": "#99854c",
+	"background_color": "#d8c897",
+	"start_url": "index.html"
+}
