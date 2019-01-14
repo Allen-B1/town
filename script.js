@@ -101,11 +101,11 @@ var BuildingType = /** @class */ (function () {
     };
     return BuildingType;
 }());
-var hut = new BuildingType("Hut", 1, 30);
-var town = new BuildingType("Town Center", 4, 200, 1);
+var Hut = new BuildingType("Hut", 1, 30, 5);
+var Town = new BuildingType("Town Center", 5, 200, 1);
 window.addEventListener("load", function () {
-    var game = new Game(document.body, hut, town);
+    var game = new Game(document.body, Hut, Town);
     game.wood = 30;
-    hut.addTo(game);
+    Hut.addTo(game);
 });
 console.log("Hello");

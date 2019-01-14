@@ -96,13 +96,13 @@ class BuildingType {
  	}
 }
 
-const hut = new BuildingType("Hut", 1, 30);
-const town = new BuildingType("Town Center", 4, 200, 1);
+const Hut = new BuildingType("Hut", 1, 30, 5);
+const Town = new BuildingType("Town Center", 5, 200, 1);
 
 window.addEventListener("load", () => {
-    var game = new Game(document.body, hut, town);
+    var game = new Game(document.body, Hut, Town);
     game.wood = 30;
-    hut.addTo(game);
+    Hut.addTo(game);
 })
 
 console.log("Hello")
