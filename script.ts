@@ -71,7 +71,8 @@ class BuildingType {
       e.classList.add("building")
       e.classList.add(this.className)
       e.innerHTML = this.name[0]
-      e.title = String(this.capacity)
+      e.title = this.name;
+      e.setAttribute("data-population", String(this.capacity));
       return e
   }
   
